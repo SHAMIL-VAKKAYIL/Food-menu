@@ -1,0 +1,104 @@
+*{
+  background-color: rgb(191, 202, 170);
+  margin: 0;
+  font-family: cursive;
+}
+
+  
+
+.header{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 40px;
+  padding: 15px;
+  height: 55px;
+  background-color: rgb(10, 37, 66);
+ 
+}
+.nav{
+  background-color: rgb(10, 37, 66) ;color: antiquewhite;
+  text-decoration: none;
+  
+}
+
+
+.footer{
+  background-color:rgba(44, 154, 86, 0.729);
+  color: rgb(249, 232, 232);
+  text-align: center;   
+}
+
+.card{
+  
+  margin-left: 4%;
+  margin-top: 2%;
+  padding: 1%;
+  display: inline-block;
+  color:rgb(10, 37, 66);
+  font-weight: bolder;
+  position:relative ;
+  overflow: hidden;
+  background-color: rgb(208, 215, 195);
+  border-radius: 7px;
+ 
+  
+ 
+ 
+}
+.card img{
+  
+  width: 260px;
+  height: 180px;
+  border-radius: 8px;
+  display: flex;
+  
+}
+.card.active button{
+  background-color: #34b28e;
+  border-radius: 10px;
+  width: 80px;
+}
+.btn{
+  
+  background-color: rgb(10, 37, 66);
+  color: antiquewhite;
+  width: 60px;
+  border-radius: 10px;
+  font-family:unset;
+  transition: all ease-in-out 0.5s;
+  
+  
+}
+.btn:hover{
+ background-color: rgb(21, 12, 12);
+}
+.item{
+  margin-left: 100px;
+  background-color: rgb(208, 215, 195);
+}
+.card .icon{
+  width: 20px;
+  position: absolute;
+  right:20px ;
+  bottom: 125px;
+  background-color: transparent;
+  opacity: 0;
+  transition: all ease 0.5s;
+  
+}
+.card.active .icon{
+  display: block;
+  opacity: 1;
+}
+.card-align{
+ margin-left: 5%;
+ position: relative;
+
+}
+.mpick{
+ position: relative;
+  border-radius: 10px;
+  margin: 2%;
+}
